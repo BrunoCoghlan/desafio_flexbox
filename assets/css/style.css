@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+/*seccion de chats*/
+nav{
+    flex: 0 0 300px;
+    border: 1px solid;
+    height: 100vh;
+}
+.chat{
+    display: flex;
+    border: 1px solid;
+    height:9.09%;
+    min-height: 60px;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.newchat{
+    border: 1px solid;
+    height: 18.18%;
+    min-height: 120px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newchat>button{
+    flex: 0 1 80%;
+    height: 33%;
+    background-color: purple;
+    border: 0px;
+    transition: .5s;
+}
+.newchat>button:hover{
+    box-shadow: 0px 0px 50px cyan;
+    transform: scale(1.1);
+    
+}
+.perfil{
+    border: 1px solid;
+    height: 9.09%;
+    min-height: 60px;
+    background-color: yellow;
+}
+.chat>img{
+    border-radius: 50%;
+    height: 80%;
+}
+/*seccion de nertworking*/
+main{
+    flex: 1 1 auto;
+    border: 1px solid;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+main>img{
+    height: 300px;
+    width: 300px;
+}
+main>div{
+    text-align: center;
+    padding: 30px 20%;
+}
